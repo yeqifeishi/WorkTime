@@ -13,9 +13,19 @@
         <set>
             <if test="suName!=null">su_name=#{suName},</if>
             <if test="suLoginName!=null">su_login_name=#{suLoginName},</if>
-            <if test="suLoginPasswd!=null">su_login_passwd=#{suLoginPasswd}</if>
-            <if test="suSex!=null">su_sex=#{suSex}</if>
-            <if test="suBirthDt!=null">su_birth_dt=#{suBirthDt}</if>
+            <if test="suLoginPasswd!=null">su_login_passwd=#{suLoginPasswd},</if>
+            <if test="suSex!=null">su_sex=#{suSex},</if>
+            <if test="suBirthDt!=null">su_birth_dt=#{suBirthDt},</if>
+            <if test="suAddress!=null">su_address=#{suAddress},</if>
+            <if test="suProvince!=null">su_province=#{suProvince},</if>
+            <if test="suCity!=null">su_city=#{suCity},</if>
+            <if test="suDistrict!=null">su_district=#{suDistrict},</if>
+            <if test="suDeptId!=null">su_dept_id=#{suDeptId},</if>
+            <if test="suEmail!=null">su_eamil=#{suEmail},</if>
+            <if test="suStatus!=null">su_status=#{suStatus},</if>
+            <if test="suCreateUid!=null">su_create_uid=#{suCreateUid},</if>
+            <if test="suCreateDt!=null">su_create_dt=#{suCreateDt},</if>
         </set>
+        where id=#{id}
     </update>
 </mapper>
