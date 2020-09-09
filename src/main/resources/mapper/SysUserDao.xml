@@ -26,6 +26,9 @@
             <if test="suCreateUid!=null">su_create_uid=#{suCreateUid},</if>
             <if test="suCreateDt!=null">su_create_dt=#{suCreateDt},</if>
         </set>
-        where id=#{id}
+        where id=#{id};
     </update>
+    <delete id="deleteUser" parameterType="int">
+        delete form sys_user where id=#{id};
+    </delete>
 </mapper>

@@ -2,5 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fy.wh.dao.SysDeptDao">
-
+    <select id="queryAllDept" resultType="com.fy.wh.entity.SysDept">
+        select * from sys_dept;
+    </select>
+    <select id="queryByName" resultType="com.fy.wh.entity.SysDept" parameterType="String">
+        select * from sys_dept where deptName=#{dept_name};
+    </select>
 </mapper>
