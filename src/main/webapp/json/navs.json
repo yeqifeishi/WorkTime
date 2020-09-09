@@ -1,0 +1,102 @@
+[
+	{
+		"title": "员工信息管理",
+		"icon": "&#xe62a;",
+		"href": "",
+		"spread": false,
+		"children": [
+			{
+				"title": "员工信息",
+				"icon": "&#xe621;",
+				"href": "page/emp/empInfo.jsp",
+				"spread": false,
+              "children": null
+			},{
+				"title": "添加员工",
+				"icon": "&#xe655;",
+				"href": "page/emp/addEmp.jsp",
+				"spread": false
+			}
+		]
+	},
+  {
+  "title": "部门信息管理",
+  "icon": "&#xe62a;",
+  "href": "",
+  "spread": false,
+  "children": [
+    {
+      "title": "部门信息",
+      "icon": "&#xe621;",
+      "href": "#",
+      "spread": false
+    },{
+      "title": "添加部门",
+      "icon": "&#xe655;",
+      "href": "#",
+      "spread": false
+    }
+  ]
+}, {
+  "title": "工时信息",
+  "icon": "&#xe62a;",
+  "href": "",
+  "spread": false,
+  "children": [
+    {
+      "title": "工时信息",
+      "icon": "&#xe621;",
+      "href": "page/wh/whInfo.jsp",
+      "spread": false
+    },
+    {
+      "title": "添加工时",
+      "icon": "&#xe621;",
+      "href": "page/wh/addWh.jsp",
+      "spread": false
+    }
+  ]
+},{
+  "title": "日志信息",
+  "icon": "&#xe62a;",
+  "href": "",
+  "spread": false,
+  "children": [
+    {
+      "title": "日志信息",
+      "icon": "&#xe621;",
+      "href": "page/log/logInfo.jsp",
+      "spread": false
+    },
+    {
+      "title": "添加日志",
+      "icon": "&#xe621;",
+      "href": "page/log/addLog.jsp",
+      "spread": false
+    }
+  ]
+},{
+  "title": "权限管理",
+  "icon": "&#xe62a;",
+  "href": "",
+  "spread": false,
+  "children": [
+    {
+      "title": "角色管理",
+      "icon": "&#xe621;",
+      "href": "#"
+    },{
+      "title": "添加角色",
+      "icon": "&#xe609;",
+      "href": "page/role/addRole.jsp"
+    },
+    {
+      "title": "菜单管理",
+      "icon": "&#xe609;",
+      "href": "page/role/menuAdmin.jsp"
+    }
+  ]
+}]
+
+
+

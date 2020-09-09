@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/echarts.all.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/echarts.common.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/echarts.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/echarts.simple.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/page/statistics/areaSta.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/page/statistics/oderSta.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/page/statistics/productSta.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/page/statistics/userSta.jsp" charset="GBK" />
+  </component>
+</project>

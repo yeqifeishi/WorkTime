@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fy.wh.dao.SysUserDao">
+    <select id="queryALlUser" resultType="com.fy.wh.entity.SysUser">
+        select * from sys_user;
+    </select>
+    <select id="queryByName" resultType="com.fy.wh.entity.SysUser" parameterType="String">
+        select * from sys_user where name=#{name};
+    </select>
+    <update id="updateUser" parameterType="com.fy.wh.entity.SysUser">
+        update sys_user
+        <set>
+            <if test="suName!=null">su_name=#{suName},</if>
+            <if test="suLoginName!=null">su_login_name=#{suLoginName},</if>
+            <if test="suLoginPasswd!=null">su_login_passwd=#{suLoginPasswd}</if>
+            <if test="suSex!=null">su_sex=#{suSex}</if>
+            <if test="suBirthDt!=null">su_birth_dt=#{suBirthDt}</if>
+        </set>
+    </update>
+</mapper>
